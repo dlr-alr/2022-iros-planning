@@ -1,0 +1,19 @@
+
+theme: minima
+
+title: Calibration of an Elastic Humanoid Upper Body and Efficient Compensation for Motion Planning
+description: " "
+author: "Johannes Tenhumberg"
+
+header_pages:
+  - _pages/robot.md
+  - _pages/results.md
+  - _pages/dataset.md
+
+include:
+    - _pages
+    
+exclude: 
+    - .gitignore
+    - Gemfile
+    - README.md
