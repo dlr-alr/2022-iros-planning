@@ -3,11 +3,10 @@ layout: page
 title: 
 ---
 
-This site presents the dateset used in the paper [Calibration of an Elastic Humanoid Upper Body and Efficient Compensation for Motion Planning ](https://arxiv.org) TODO add link
+This site presents complements the paper [Massively Speeding Up Optimization-based Motion Planning through Deep Learning](https://arxiv.org) TODO add link
 
 
-
-* [Robot](/_pages/robot.md)
+* [Robots](/_pages/robot.md)
 * [Results](/_pages/results.md)
-* [Dataset](/_pages/dataset.md)
+* [Datasets](/_pages/dataset.md)
 
