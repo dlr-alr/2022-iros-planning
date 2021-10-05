@@ -3,7 +3,6 @@ permalink: /robots
 layout: page
 title: Robots
 ---
-TODO add sphere models
 We looked at four different robots to test our method.
 Two toy robots in 2D and two real robots in 3D. 
 
@@ -40,6 +39,4 @@ It is centered in 1 3.5m x 3.5m x 3.5m.
 
 ---
 
-
----
 
