@@ -36,7 +36,3 @@ and the head with 2 joints.
 Fully extended the robot can reach up to 2.8m in the air and 2.XXXm to the sides.
 It is centered in 1 3.5m x 3.5m x 3.5m.
 ![Justin19](../assets/imgs/Justin19.png)
-
----
-
-
