@@ -8,3 +8,4 @@ Here we introduce the different robots we used for our work and talk about the d
 Furthermore we describe the encoding of the world, the network architecture and the training process in more detail.
 
 ![Justin](../assets/imgs/Justin_in_Action.png)
+![Justin](../assets/imgs/flowchart.png)
