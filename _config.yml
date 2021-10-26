@@ -7,7 +7,7 @@ author: "Johannes Tenhumberg"
 
 header_pages:
   - _pages/robots.md
-  - _pages/dataset.md
+  - _pages/datasets.md
   - _pages/training.md 
   - _pages/results.md
 
