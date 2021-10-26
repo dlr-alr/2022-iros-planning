@@ -7,5 +7,4 @@ This site complements the paper [Massively Speeding Up Optimization-based Motion
 Here we introduce the different robots we used for our work and talk about the details of the dataset generation.
 Furthermore we describe the encoding of the world, the network architecture and the training process in more detail.
 
-![Justin](../assets/imgs/Justin_in_Action.png)
-![Justin](../assets/imgs/flowchart.png)
+![Justin](/assets/imgs/Justin_in_Action.png)
