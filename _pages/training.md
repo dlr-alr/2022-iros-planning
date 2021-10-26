@@ -1,4 +1,12 @@
+---
+permalink: /training
+layout: page
+title: Training
+---
+We trained the networks supervised.
+
+![network](../assets/imgs/network.png)
 
 
-# SingleSphere02
-
+![flowchart](../assets/imgs/flowchart.png)
+---
