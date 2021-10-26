@@ -1,14 +1,16 @@
 
 theme: minima
 
-title: Calibration of an Elastic Humanoid Upper Body and Efficient Compensation for Motion Planning
+title: Massively Speeding Up Optimization-based Motion Planning through Deep Learning
 description: " "
 author: "Johannes Tenhumberg"
 
 header_pages:
-  - _pages/robot.md
-  - _pages/results.md
+  - _pages/robots.md
   - _pages/dataset.md
+  - _pages/training.md 
+  - _pages/results.md
+
 
 include:
     - _pages
