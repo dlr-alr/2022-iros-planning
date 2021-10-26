@@ -9,7 +9,7 @@ Furthermore we describe the network architecture and the training process in mor
 
 
 
-* [Robots](/_pages/robot.md)
-* [Datasets](/_pages/dataset.md)
+* [Robots](/_pages/robots.md)
+* [Datasets](/_pages/datasets.md)
 * [Training](/_pages/training.md)
 * [Results](/_pages/results.md)
