@@ -12,8 +12,8 @@ A single sphere moving in the plane.
 It's two "prismatic joints" move it directly along the x and y-axis, which means that for this robot configuration space and workspace are identical.
 Therefore a network does not need to learn any forward kinematics for this robot and the example is great for understanding the cartesian workspace.
 The radius of the sphere is 0.25m and it moves in a 10m x 10m world.
-![SingleSphere02](../assets/imgs/SingleSphere02.png)
 <img src="../assets/imgs/SingleSphere02.png" alt="SingleSphere02" width="200"/>
+
 ---
 # StaticArm04
 A serial arm in the plane with 4 revolute joints.
