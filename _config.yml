@@ -9,6 +9,7 @@ email: johannes.tenhumberg@dlr.de
 
 header_pages:
   - _pages/robots.md
+  - _pages/worlds.md
   - _pages/methods.md
   - _pages/datasets.md
   - _pages/training.md 
