@@ -11,7 +11,7 @@ header_pages:
   - _pages/datasets.md
   - _pages/training.md 
   - _pages/results.md
-
+  - _pages/code.md
 
 include:
     - _pages
