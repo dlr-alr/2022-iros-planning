@@ -17,7 +17,10 @@ We used the [Simplex Noise](https://en.wikipedia.org/wiki/Simplex_noise) to gene
 # World Encoding with Fixed Basis Set
 ---
 We adopted the idea of a fixed basis set from computer vision [cite] and applied it to robotic motion planning.
-[basis set](../assets/imgs/fb_exact.png)
+[occupancy grid](../assets/imgs/world_occ.png)
+
+[signed distance field](../assets/imgs/world_sdf.png)
+[basis set](../assets/imgs/world_fb.png)
 
 
 # Network based Iterative Dataset Generation
