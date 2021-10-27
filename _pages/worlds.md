@@ -8,4 +8,4 @@ title: Worlds
 ---
 We used the [Simplex Noise](https://en.wikipedia.org/wiki/Simplex_noise) to generate a wide variety of challenging worlds for our robots.
 
-[Worlds 3D](../assets/imgs/world_examples_3D.gif)
+![Worlds 3D](../assets/imgs/worlds_examples_3D.gif)
