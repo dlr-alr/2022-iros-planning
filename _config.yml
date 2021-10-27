@@ -3,8 +3,9 @@ theme: minima
 
 title: Massively Speeding Up Optimization-based Motion Planning
        through Deep Learning
-description: " "
-author: "Johannes Tenhumberg, johannes.tenhumberg@dlr.de"
+description:
+author: Johannes Tenhumberg
+email: johannes.tenhumberg@dlr.de
 
 header_pages:
   - _pages/robots.md
