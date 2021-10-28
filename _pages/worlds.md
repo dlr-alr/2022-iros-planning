@@ -27,3 +27,8 @@ Here you can see different examples of 2D worlds all with the same noise level a
 # 3D Examples
 ![Worlds 3D Examples](../assets/imgs/worlds_examples_3d.gif)
 The same procedure can be applied in higher dimensions and we use it to generate those asteroid field for our robots.
+
+
+--- 
+
+* TODO comparison to box worlds (ablation study)
