@@ -5,13 +5,6 @@ title: Methods
 ---
 
 
-# World Generation with Simplex Noise
----
-We used the [Simplex Noise](https://en.wikipedia.org/wiki/Simplex_noise) to generate a wide variety of challenging worlds for our robots.
-
-* TODO add the math
-* TODO add example images
-* TODO comparison to box worlds [ablation study]
 
 
 # World Encoding with Fixed Basis Set
