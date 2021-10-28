@@ -12,7 +12,7 @@ Furthermore we describe the encoding of the world, the network architecture and 
 
 # Abstract
 ---
-Abstract—A robot needs a good motion planner to move efficiently in a complex and changing environment. 
+A robot needs a good motion planner to move efficiently in a complex and changing environment. 
 One option to improve the planning is to encode the experience of successful motions in a neural network and use its prediction as an initial guess for an optimization-based planner. 
 However, until now, this idea could not scale to complex robots in unseen 3D environments. We introduce the basis set representation as a modern method to process spatial data to motion planning to fill this gap. 
 This new compact environment encoding from computer vision enables us to train motion planning networks efficiently that generalize well over challenging 3D worlds.
