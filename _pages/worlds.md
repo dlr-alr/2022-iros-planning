@@ -14,12 +14,18 @@ One can overlay different noise scales to create variety on different resolution
 In our case, we used a binary occupancy grid for the environments of our robots. 
 To get from a continuous noise to a binary occupancy grid, we applied a threshold to decide which regions are not passable for the robot.
 
-# 2D Examples
-![Worlds 2D Threshold](../assets/imgs/worlds_examples_2d.gif)
+---
+# Parameters of Simplex Noise
+![Worlds 2D Noise](../assets/imgs/worlds_simplex_noise.png)
+
+![Worlds 2D Resolution](../assets/imgs/worlds_simplex_resolution.png)
+
+![Worlds 2D Threshold](../assets/imgs/worlds_simplex_threshold.gif)
 This animation shows the influence of the threshold on the occupancy map, from a free plane to completely occupied.
 
----
 
+---
+# 2D Examples
 ![Worlds 2D Examples](../assets/imgs/worlds_examples_2d.png)
 Here you can see different examples of 2D worlds all with the same noise level and threshold.
 
