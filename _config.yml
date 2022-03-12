@@ -7,6 +7,8 @@ author: johannes.tenhumberg@dlr.de
 header_pages:
   - _pages/robots.md
   - _pages/worlds.md
+  - _pages/bps.md
+  - _pages/chomp.md
   - _pages/methods.md
   - _pages/datasets.md
   - _pages/training.md 

@@ -16,22 +16,26 @@ To get from a continuous noise to a binary occupancy grid, we applied a threshol
 
 ---
 # Parameters of Simplex Noise
-![Worlds 2D Noise](../assets/imgs/worlds_simplex_noise.png)
 
-![Worlds 2D Resolution](../assets/imgs/worlds_simplex_resolution.png)
+Noise | Occupancy Grid
+|:-----:|:--------------:|
+![](../assets/imgs/worlds/worlds_simplex_noise.png){:.some-css-class style="width: 500px"}  |  ![](../assets/imgs/worlds/worlds_simplex_threshold.gif){:.some-css-class style="width: 490px"}
 
-![Worlds 2D Threshold](../assets/imgs/worlds_simplex_threshold.gif)
 This animation shows the influence of the threshold on the occupancy map, from a free plane to completely occupied.
+
+
+
+![Worlds 2D Resolution](../assets/imgs/worlds/worlds_simplex_resolution.png)
 
 
 ---
 # 2D Examples
-![Worlds 2D Examples](../assets/imgs/worlds_examples_2d.png)
+![Worlds 2D Examples](../assets/imgs/worlds/worlds_examples_2d.png)
 Here you can see different examples of 2D worlds all with the same noise level and threshold.
 
 ---
 # 3D Examples
-![Worlds 3D Examples](../assets/imgs/worlds_examples_3d.gif)
+![Worlds 3D Examples](../assets/imgs/worlds/worlds_examples_3d.gif)
 The same procedure can be applied in higher dimensions and we use it to generate those asteroid field for our robots.
 
 
