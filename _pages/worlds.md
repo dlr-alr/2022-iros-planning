@@ -17,9 +17,9 @@ To get from a continuous noise to a binary occupancy grid, we applied a threshol
 ---
 # Parameters of Simplex Noise
 
-Noise | Occupancy Grid
-|:-----:|:--------------:|
-![](../assets/imgs/worlds/worlds_simplex_noise.png){:.some-css-class style="width: 500px"}  |  ![](../assets/imgs/worlds/worlds_simplex_threshold.gif){:.some-css-class style="width: 490px"}
+|                                           Noise                                            |                                         Occupancy Grid                                         |
+|:------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------:|
+| ![](../assets/imgs/worlds/worlds_simplex_noise.png){:.some-css-class style="width: 500px"} | ![](../assets/imgs/worlds/worlds_simplex_threshold.gif){:.some-css-class style="width: 490px"} |
 
 This animation shows the influence of the threshold on the occupancy map, from a free plane to completely occupied.
 
@@ -36,9 +36,7 @@ Here you can see different examples of 2D worlds all with the same noise level a
 ---
 # 3D Examples
 ![Worlds 3D Examples](../assets/imgs/worlds/worlds_examples_3d.gif)
-The same procedure can be applied in higher dimensions and we use it to generate those asteroid field for our robots.
+The same procedure can be applied in higher dimensions, and we use it to generate those asteroid field for our robots.
 
 
---- 
-
-* TODO comparison to box worlds (ablation study)
+---
