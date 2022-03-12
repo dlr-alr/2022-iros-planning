@@ -9,4 +9,4 @@ vendor/
 .idea/
 
 .DS_Store
-.Gemfile.lock
+Gemfile.lock
