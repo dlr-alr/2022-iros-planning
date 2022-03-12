@@ -4,13 +4,10 @@ layout: page
 title: Basis Point Set
 ---
 
-![TODO](../assets/bps/worlds/bps_build.mp4)
+![BPS - Build](../assets/imgs/bps/bps_build.gif){:.this style="width: 400px"}
 
-![TODO](../assets/bps/worlds/worlds_examples_2d.png)
+![BPS - Distances Lines](../assets/imgs/bps/bps_distances_lines.gif){:.this style="width: 400px"}
 
-![TODO](../assets/bps/worlds/bps_distances_lines.mp4)
+![BPS - Distances Circles](../assets/imgs/bps/bps_distances_circles.gif){:.this style="width: 400px"}
 
 
-<video width="320" height="240" controls>
-  <source type="video/mp4" src="../assets/bps/worlds/bps_distances_lines.mp4>
-</video>
