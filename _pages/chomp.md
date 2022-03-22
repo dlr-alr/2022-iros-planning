@@ -11,17 +11,23 @@ $$
 Q = [q_1, \dots, q_{\mathrm{t}}], \, q_t \in \mathbb{R}^{N_{\mathrm{q}}}
 $$
 
+
+
 **Objective Function**
 
 $$
 U(Q) = U_c(Q) + \alpha \, U_s(Q) + \beta \, U_l(Q)
 $$
 
+
+
 **Length Cost**
 
 $$
 U_l(Q) = \frac{N_{\mathrm{t}}-1}{|q_{N_{\mathrm{t}}}-q_1|^2} \sum_{t=1}^{N_{\mathrm{t}}-1} |q_{t+1} - q_{t}|^2
 $$
+
+
 
 **Collision Cost**
 
@@ -34,6 +40,8 @@ c \Big(
     - r_{ik}
 \Big)
 $$
+
+
 
 **Smooth Clipping Function**
 
@@ -49,6 +57,8 @@ c(d) &=
 \right.
 \end{aligned}
 $$
+
+
 
 **Self-collision Cost**
 
