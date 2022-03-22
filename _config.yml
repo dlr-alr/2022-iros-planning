@@ -1,23 +1,24 @@
 theme: minima
 
-title: Speeding Up Optimization-based Motion Planning
-       through Deep Learning
+title: Speeding Up Optimization-based Motion Planning through Deep Learning
 author: johannes.tenhumberg@dlr.de
-  
+
 header_pages:
   - _pages/robots.md
   - _pages/worlds.md
   - _pages/chomp.md
   - _pages/bps.md
-  - _pages/training.md 
+  - _pages/training.md
   - _pages/results.md
   - _pages/datasets.md
   - _pages/code.md
 
 include:
     - _pages
-    
-exclude: 
+
+exclude:
     - .gitignore
     - Gemfile
     - README.md
+
+markdown: kramdown

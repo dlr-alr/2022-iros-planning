@@ -4,6 +4,11 @@ layout: page
 title: BPS
 ---
 
+The basis point set is strongly related to a distance field.
+The only difference is, that it does not have to lay on a regular grid.
+# TODO
+
+
 ![BPS - Build](../assets/imgs/bps/bps_build.gif){:.this style="width: 400px"}
 
 ![BPS - Distances Lines](../assets/imgs/bps/bps_distances_lines.gif){:.this style="width: 400px"}
@@ -20,14 +25,14 @@ We compared it to other common representations and found that it is well suited 
 
 ---
 Occupancy Grid
-![occupancy grid](../assets/imgs/worlds_occ.png)
+![occupancy grid](../assets/imgs/bps/bps_occ.png)
 
 ---
 Signed Distance Field
-![signed distance field](../assets/imgs/worlds_sdf.png)
+![signed distance field](../assets/imgs/bps/bps_sdf.png)
 
 ---
 Basis Set and Comparision
-![basis set](../assets/imgs/worlds_fb.png)
+![basis set](../assets/imgs/bps/bps_fb.png)
 
 ---

@@ -31,12 +31,14 @@ This animation shows the influence of the threshold on the occupancy map, from a
 ---
 # 2D Examples
 ![Worlds 2D Examples](../assets/imgs/worlds/worlds_examples_2d.png)
-Here you can see different examples of 2D worlds all with the same noise level and threshold.
+Here you can see different examples of 2D worlds all with the same noise resolution and threshold, to see the diversity 
+of one single configuration.
+
 
 ---
 # 3D Examples
 ![Worlds 3D Examples](../assets/imgs/worlds/worlds_examples_3d.gif)
-The same procedure can be applied in higher dimensions, and we use it to generate those asteroid field for our robots.
+The same procedure can be applied in 3D, and we use it to generate those asteroid field for our robots.
 
 
 ---
