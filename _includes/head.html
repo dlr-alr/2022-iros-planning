@@ -2,16 +2,16 @@
 {% if page.usemathjax %}
     <script type="text/x-mathjax-config">
         MathJax.Hub.Config({
-        TeX: { equationNumbers: { autoNumber: "AMS" } },
-        displayAlign: "left"
+            TeX: { equationNumbers: { autoNumber: "AMS" } },
+            displayAlign: "left"
         });
         MathJax.Hub.Register.StartupHook('TeX Jax Ready', function () {
             MathJax.InputJax.TeX.prefilterHooks.Add(function (data) {
                 data.math = data.math.replace(/^% <!\[CDATA\[/, '').replace(/%\]\]>$/, '');
             });
-<!--        });-->
-
+        });
     </script>
+
     <script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
     </script>
 {% endif %}
