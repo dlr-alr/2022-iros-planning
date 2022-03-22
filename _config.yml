@@ -22,3 +22,6 @@ exclude:
     - README.md
 
 markdown: kramdown
+
+plugins:
+  - jekyll-spaceship
