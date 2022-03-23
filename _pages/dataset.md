@@ -3,7 +3,13 @@ permalink: /dataset
 layout: page
 title: Dataset
 ---
-![datasets](../assets/imgs/datasets.png)
+
+![datasets](../assets/imgs/dataset/table-datasets.png){:.this 
+style="width: 600px; 
+display: block;
+margin-left: auto;
+margin-right: auto"}
+
 ---
 Click the links to download the dataset for a robot.
 Each SQL database consists of two tables: 'worlds' and 'paths'.
