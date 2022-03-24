@@ -19,7 +19,7 @@ To get from a continuous noise to a binary occupancy grid, we applied a threshol
 
 |                                         Noise                                          |                                           Occupancy Grid                                            |
 |:--------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------:|
-| ![Noise](../assets/imgs/worlds/worlds_simplex_noise.png){:.dummy style="width: 500px"} | ![Occupancy Grid](../assets/imgs/worlds/worlds_simplex_threshold.gif){:.dummy style="width: 490px"} |
+| ![Noise](../assets/imgs/worlds/worlds_simplex_noise.png){:.this style="width: 500px"} | ![Occupancy Grid](../assets/imgs/worlds/worlds_simplex_threshold.gif){:.this style="width: 490px"} |
 
 This animation shows the influence of the threshold on the occupancy map, from a free plane to completely occupied.
 

@@ -17,16 +17,27 @@ Of course, for this to work, the dataset must have a certain quality, and the ne
 But we found that even in an early stage of training, the difference between network prediction and label is a good indicator of where to invest resources to improve the dataset.
 
 One can continue this idea one step further and use the objective function to decide which samples have valuable information for the network and adjust the curriculum accordingly or produce new challenging samples.  
-![flowchart](../assets/imgs/methods/flow_algorithm.png)
+
+![flowchart](../assets/imgs/methods/flow_algorithm.png){:.this 
+style="width: 600px; 
+display: block;
+margin-left: auto;
+margin-right: auto"}
 
 ---
 Those examples show the problem with inconsistent labels.
-While more compuatational resources can solve those problems it is more efficient to use the help of the network as guidance.
+While more computational resources can solve those problems it is more efficient to use the help of the network as guidance.
 Using the prediction of the network as indicator is also more general, then applying some custom heuristics to identify potential outliers.
-![wrong labels](../assets/imgs/methods/wrong_labels.png)
+
+![wrong labels](../assets/imgs/methods/wrong_labels.png){:.this 
+style="width: 600px; 
+display: block;
+margin-left: auto;
+margin-right: auto"}
+
 
 ---
-* TODO add ablation study show necessity for each of those steps
+
 
 
 
