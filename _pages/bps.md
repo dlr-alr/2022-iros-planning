@@ -4,7 +4,7 @@ layout: page
 title: BPS
 ---
 
-The basis point set is strongly related to a distance field.
+The basis point set [[Prokudin2019](https://arxiv.org/abs/1908.09186)] is strongly related to a distance field.
 The only difference is, that it does not have to lay on a regular grid.
 # TODO
 
@@ -33,6 +33,14 @@ Signed Distance Field
 
 ---
 Basis Set and Comparision
-![basis set](../assets/imgs/bps/bps_fb.png)
+![basis set](../assets/imgs/bps/bps_vs_occ.jpg)
 
 ---
+
+
+---
+
+|                                  Noise Field                                  |                                     Occupancy Grid                                     |
+|:-----------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------:|
+|        ![Noise](../assets/imgs/bps/bps_box-hcp.jpg){:.this style="width: 500px"}         | ![Occupancy Grid](../assets/imgs/bps/bps_box_uniform.jpg){:.this style="width: 500px"} |
+ | ![Noise](../assets/imgs/bps/bps_box_uniform.jpg){:.this style="width: 500px"} |     ![Noise](../assets/imgs/bps/bps_box_uniform.jpg){:.this style="width: 500px"}      | 

@@ -3,12 +3,12 @@ layout: page
 title: 
 ---
 
-![Justin](/assets/imgs/index/SphereJustin_in_PerlinNoise_33641.jpg)
-
-This site complements the paper [Speeding Up Optimization-based Motion Planning through Deep Learning](https://arxiv.org).
-Here we introduce the different robots we used for our work and provide additional information on the datasets ([click here to download](https://drive.google.com/drive/my-drive)).
+This site complements the paper [Speeding Up Optimization-based Motion Planning through Deep Learning](https://arxiv.org) by
+[Johannes Tenhumberg](https://scholar.google.com/citations?user=2RZuYZMAAAAJ&hl=en) and [Berthold Bäuml](https://scholar.google.com/citations?hl=en&user=fjvpDsEAAAAJ).
+Here we introduce the different robots we used for our work and provide additional information on the datasets.
 Furthermore, we describe our methods, the network architecture, and the training process in more detail.
 
+![Justin](/assets/imgs/index/SphereJustin_in_PerlinNoise_33641.jpg)
 
 # Abstract
 ---

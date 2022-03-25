@@ -4,6 +4,15 @@ layout: page
 title: OMP
 usemathjax: true
 ---
+We used our own variant of [CHOMP](https://journals.sagepub.com/doi/10.1177/0278364913488805) as optimization-based solver to generate the dataset and post-process the predictions of the neural network.
+The main difference is that we dynamically add sub steps to ensure no collisions are missed when discretizing the path
+
+![U](../assets/imgs/chomp/substepspheres.png){:.this 
+style="width: 600px; 
+display: block;
+margin-left: auto;
+margin-right: auto"}
+*Substeps between two discrete waypoints \\(q_t\\) and \\(q_{t+1}\\) to explicitly calculate the swept volume of the path and ensure no obstacles are missed.*
 
 **Path**
 
@@ -19,15 +28,11 @@ $$
 U(Q) = U_c(Q) + \alpha \, U_s(Q) + \beta \, U_l(Q)
 $$
 
-
-
 **Length Cost**
 
 $$
 U_l(Q) = \frac{N_{\mathrm{t}}-1}{|q_{N_{\mathrm{t}}}-q_1|^2} \sum_{t=1}^{N_{\mathrm{t}}-1} |q_{t+1} - q_{t}|^2
 $$
-
-
 
 **Collision Cost**
 
@@ -40,8 +45,6 @@ c \Big(
     - r_{ik}
 \Big)
 $$
-
-
 
 **Smooth Clipping Function**
 
@@ -58,8 +61,6 @@ c(d) &=
 \end{aligned}
 $$
 
-
-
 **Self-collision Cost**
 
 $$
@@ -71,17 +72,3 @@ c \big(
     - r_{ik} - r_{jl} 
 \big)
 $$
-
-
-![U](../assets/imgs/chomp/substepspheres.png)
-
-
-<iframe width="660" height="335"
-src="https://www.youtube.com/embed/MUQfKFzIOeU" 
-frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen>
-</iframe>
-
-
-

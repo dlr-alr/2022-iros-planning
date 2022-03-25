@@ -1,23 +1,17 @@
 <!-- for mathjax support -->
 {% if page.usemathjax %}
     <script type="text/x-mathjax-config">
-        MathJax.Hub.Config({
-            TeX: { equationNumbers: { autoNumber: "AMS" } },
-            displayAlign: "left"
-        });
+        MathJax = {
+            tex: {
+                inlineMath: [["$", "$"], ["\\(", "\\)"]],
+                processEscapes: true
+                }
+            chtml: {scale: 1.5},
+            svg: {scale: 1.5}
+            }
     </script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 {% endif %}
-
-<style>
-figbig{
-    width: 600px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-</style>
-
 
 <head>
   <meta charset="utf-8">

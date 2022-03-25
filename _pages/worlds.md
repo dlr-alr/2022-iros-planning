@@ -4,41 +4,32 @@ layout: page
 title: Worlds
 ---
 
-# World Generation with Simplex Noise
----
 We used [Simplex Noise](https://en.wikipedia.org/wiki/Simplex_noise) to generate a wide variety of challenging worlds for our robots.
-Like its predecessor Perlin noise, Simplex noise is a gradient noise and used as a procedural texture to increase the realism in computer graphics.
-It is, for example, used in computer games to produce always new worlds. 
-One can overlay different noise scales to create variety on different resolution levels (elevation: continents/mountain range/hill).
+Like its predecessor Perlin noise, Simplex noise is a gradient noise used as a procedural texture to increase the realism in computer graphics.
+It is, for example, used in computer games to produce always new worlds.
 
-In our case, we used a binary occupancy grid for the environments of our robots. 
-To get from a continuous noise to a binary occupancy grid, we applied a threshold to decide which regions are not passable for the robot.
+In our case, we used a 64x64 binary occupancy grid for the environments of our robots. 
+To get from a continuous noise to a binary occupancy grid, we applied a threshold.
 
 ---
-# Parameters of Simplex Noise
 
-|                                         Noise                                          |                                           Occupancy Grid                                            |
-|:--------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------:|
-| ![Noise](../assets/imgs/worlds/worlds_simplex_noise.png){:.this style="width: 500px"} | ![Occupancy Grid](../assets/imgs/worlds/worlds_simplex_threshold.gif){:.this style="width: 490px"} |
-
-This animation shows the influence of the threshold on the occupancy map, from a free plane to completely occupied.
-
-
+|                                                           Noise Field                                                            |                                                    Occupancy Grid                                                     |
+|:--------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------:|
+|                      ![Noise](../assets/imgs/worlds/worlds_simplex_noise.png){:.this style="width: 500px"}                       |          ![Occupancy Grid](../assets/imgs/worlds/worlds_simplex_threshold.gif){:.this style="width: 490px"}           |
+ | *A continuous noise field, where each pixel has a value between 0 and 1. It can also be interpreted as a normalized height map.* | *This animation shows the influence of the threshold on the occupancy map, from a free plane to completely occupied.* | 
 
 ![Worlds 2D Resolution](../assets/imgs/worlds/worlds_simplex_resolution.png)
-
+*Changing the resolution changes the frequency of the noise. 
+To create variety on different resolution levels (elevation: continents/mountain range/hill), one can overlay different noise scales.*
 
 ---
-# 2D Examples
+**2D Examples**
 ![Worlds 2D Examples](../assets/imgs/worlds/worlds_examples_2d.png)
-Here you can see different examples of 2D worlds all with the same noise resolution and threshold, to see the diversity 
-of one single configuration.
-
+*Examples of 2D worlds all with the same noise resolution and threshold, to see the diversity 
+of one single configuration.*
 
 ---
-# 3D Examples
+
+**3D Examples**
 ![Worlds 3D Examples](../assets/imgs/worlds/worlds_examples_3d.gif)
-The same procedure can be applied in 3D, and we use it to generate those asteroid field for our robots.
-
-
----
+*The same procedure can be applied in 3D, and we use it to generate the asteroid field for our robots.*
