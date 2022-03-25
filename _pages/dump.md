@@ -23,3 +23,15 @@ custom head
 <script type="text/javascript" async
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
+
+
+
+Those examples show the problem with inconsistent labels.
+While more computational resources can solve those problems it is more efficient to use the help of the network as guidance.
+Using the prediction of the network as indicator is also more general, then applying some custom heuristics to identify potential outliers.
+
+![wrong labels](../assets/imgs/methods/wrong_labels.png){:.this 
+style="width: 800px; 
+display: block;
+margin-left: auto;
+margin-right: auto"}
