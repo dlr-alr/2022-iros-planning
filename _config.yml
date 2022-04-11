@@ -1,7 +1,9 @@
 theme: minima
 markdown: kramdown
 
-title: Speeding Up Optimization-based Motion Planning through Deep Learning
+title: |-
+  Speeding Up Optimization-based Motion Planning 
+  through Deep Learning
 author: johannes.tenhumberg@dlr.de
 
 header_pages:
