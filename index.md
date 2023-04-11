@@ -4,7 +4,7 @@ title:
 ---
 
 This site complements the paper [Speeding Up Optimization-based Motion Planning through Deep Learning](https://arxiv.org) by
-[Johannes Tenhumberg](https://scholar.google.com/citations?user=2RZuYZMAAAAJ&hl=en) and [Berthold Bäuml](https://scholar.google.com/citations?hl=en&user=fjvpDsEAAAAJ).
+[Johannes Tenhumberg](https://scholar.google.com/citations?user=2RZuYZMAAAAJ), [Darius Burschka](https://scholar.google.com/citations?user=y-MzVoUAAAA), and [Berthold Bäuml](https://scholar.google.com/citations?user=fjvpDsEAAAAJ).
 Here we introduce the different robots we used for our work and provide additional information on the datasets.
 Furthermore, we describe our methods, the network architecture, and the training process in more detail.
 
@@ -19,3 +19,27 @@ This new compact environment encoding, first introduced in computer vision, enab
 We combine the network and the objective function as a metric to efficiently clean, extend and boost an initial dataset produced by a classical solver. 
 The resulting network can predict an initial guess that quickly converges to a feasible solution, massively outperforming random multi-starts in unseen environments. Furthermore, the quick inference time of the network plus the guarantees of a classical solver lead to a fast (200 ms on a single CPU core) and safe way to generate optimal paths for the humanoid robot Agile Justin with 19DoF.
 Finally, we show a successful real-world experiment based on a high-resolution world model from an integrated 3D sensor.
+
+# Video
+---
+<p align="center">
+<iframe width="560" height="315" 
+src="https://www.youtube.com/embed/md97iw4k5eQ"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+allowfullscreen>
+</iframe>
+</p>
+
+# Cite
+---
+```
+@inproceedings{Tenhumberg2022,
+  title={Speeding Up Optimization-based Motion Planning through Deep Learning},
+  author={Tenhumberg, Johannes and Burschka, Darius and B{\"a}uml, Berthold},
+  booktitle={2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 
+  title={Speeding Up Optimization-based Motion Planning through Deep Learning}, 
+  year={2022},
+  pages={7182-7189},
+  doi={10.1109/IROS47612.2022.9981717}}
+}
+```
